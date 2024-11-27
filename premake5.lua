@@ -19,6 +19,10 @@ project "fmtlib"
 	
 	filter "system:windows"
 		systemversion "latest"
+		defines
+		{
+			"_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING"
+		}
 	
 	filter "configurations:Development"
 		runtime "Debug"
