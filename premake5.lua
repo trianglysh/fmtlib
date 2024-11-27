@@ -9,7 +9,7 @@ project "fmtlib"
 	files
 	{
 		"include/**.h",
-		"src/**.cc"
+		"src/fmt.cc"
 	}
 	
 	includedirs
